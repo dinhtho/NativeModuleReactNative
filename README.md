@@ -1,5 +1,5 @@
 #  NativeModule
-<img src="https://github.com/dinhtho/NativeModuleReactNative/blob/master/sreenshot.png" width="1000" height="600">
+<img src="https://github.com/dinhtho/NativeModuleReactNative/blob/master/sreenshot.png" width="300" height="600">
 
 
 
