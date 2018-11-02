@@ -8,6 +8,8 @@ import Colors from './Colors'
 const ApplicationStyles = {
   screen: {
     mainContainer: {
+      alignItems:'center',
+      justifyContent:'center',
       flex: 1,
       backgroundColor: Colors.transparent
     },
