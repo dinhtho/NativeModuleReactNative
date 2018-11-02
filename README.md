@@ -1,4 +1,16 @@
 #  NativeModule
+<img src="https://github.com/dinhtho/NativeModuleReactNative/blob/master/sreenshot.png" width="1000" height="600">
+
+
+
+
+
+
+
+
+
+
+
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 
 * Standard compliant React Native App Utilizing [Ignite](https://github.com/infinitered/ignite)
