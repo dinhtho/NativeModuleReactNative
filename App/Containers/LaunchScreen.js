@@ -16,7 +16,7 @@ export default class LaunchScreen extends Component {
           <Text>Toast</Text>
         </TouchableOpacity>
 
-         <TouchableOpacity
+        <TouchableOpacity
           style={{ backgroundColor: 'red', padding: 10 }}
           onPress={this.openCamera} >
           <Text>Open Camera</Text>
@@ -29,6 +29,9 @@ export default class LaunchScreen extends Component {
     NativeToast.showMessage('My Native Toast', NativeToast.SHORT);
   }
   openCamera() {
-    Camera.open();
+    Camera.takePhoto((response) => {
+      console.log('----------------------------------------------------')
+      NativeToast.showMessage('Done', NativeToast.SHORT);
+    })
   }
 }
